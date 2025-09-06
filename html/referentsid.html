@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referentsid - Streng OÜ</title>
+    <link rel="stylesheet" href="/static/styles/index.css">
+    <link rel="stylesheet" href="/static/styles/referentsid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav-container">
+            <a href="/html/index.html" class="nav-logo">STRENG OÜ</a>
+            <div class="nav-links">
+                <a href="/html/index.html" class="nav-link">AVALEHT</a>
+                <a href="/html/referentsid.html" class="nav-link active">REFERENTSID</a>
+                <a href="/html/kontakt.html" class="nav-link">KONTAKT</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-hero">
+            <div class="hero-image" style="background-image: url('/static/images/hoone13.jpg');"></div>
+            <div class="hero-text">
+                <h1>Referentsid</h1>
+            </div>
+        </section>
+
+        <section class="gallery-grid-section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <a href="#" class="gallery-card" data-category="uhiskondlikud">
+                        <img src="/static/images/uk1.jpg" alt="Ühiskondlikud hooned">
+                        <div class="card-title">Ühiskondlikud hooned</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="kaubandus">
+                        <img src="/static/images/hoone3.jpg" alt="Kaubandus- ja büroohooned">
+                        <div class="card-title">Kaubandus- ja büroohooned</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="toostus">
+                        <img src="/static/images/t3.jpeg" alt="Tööstushooned">
+                        <div class="card-title">Tööstushooned</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="elamud">
+                        <img src="/static/images/e5.jpg" alt="Elamud">
+                        <div class="card-title">Elamud</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="korterelamud">
+                        <img src="/static/images/k1.jpg" alt="Korterelamud">
+                        <div class="card-title">Korterelamud</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="rodud">
+                        <img src="/static/images/rv4.jpeg" alt="Rõdud ja varikatused">
+                        <div class="card-title">Rõdud ja varikatused</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="rajatised">
+                        <img src="/static/images/r1.jpg" alt="Rajatised">
+                        <div class="card-title">Rajatised</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                    <a href="#" class="gallery-card" data-category="trepid">
+                        <img src="/static/images/tp2.jpg" alt="Trepid ja piirded">
+                        <div class="card-title">Trepid ja piirded</div>
+                        <div class="card-overlay">
+                            <span class="overlay-text">Vaata kõiki</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="gallery-popup" class="gallery-popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div class="popup-slider">
+                <!-- Slides will be injected by JS -->
+            </div>
+            <button class="slider-btn prev">&lt;</button>
+            <button class="slider-btn next">&gt;</button>
+            <div class="slider-dots"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Streng OÜ | Registrikood: 11233049 | Riia 20-14, Tartu | streng(at)streng.ee</p>
+        </div>
+    </footer>
+    <script src="/static/js/gallery-popup.js"></script>
+</body>
+</html>

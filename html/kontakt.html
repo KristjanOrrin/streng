@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Streng OÜ</title>
+    <link rel="stylesheet" href="/static/styles/index.css">
+    <link rel="stylesheet" href="/static/styles/kontakt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav-container">
+            <a href="/html/index.html" class="nav-logo">STRENG OÜ</a>
+            <div class="nav-links">
+                <a href="/html/index.html" class="nav-link">AVALEHT</a>
+                <a href="/html/referentsid.html" class="nav-link">REFERENTSID</a>
+                <a href="/html/kontakt.html" class="nav-link active">KONTAKT</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-hero" style="height: 50vh;">
+            <div class="hero-image" style="background-image: url('/static/images/projecting.jpg');"></div>
+            <div class="hero-text">
+                <h1>Kontaktandmed</h1>
+            </div>
+        </section>
+
+        <section class="contact-page-section">
+            <div class="container contact-grid">
+                <div class="contact-details">
+                    <h3>Streng OÜ</h3>
+                    <p>Riia 20-14, Tartu 51010, Eesti</p>
+                    <p>Reg. kood: 11233049</p>
+                    <p>A/a: SEB EE141010220055615016</p>
+                    <p>
+                        <strong>MTR registreeringud:</strong><br>
+                        EPE000675 Ehitusprojekti ekspertiis<br>
+                        EEP000753 Projekteerimine<br>
+                        EEH001708 Ehitamine
+                    </p>
+                    <p>E-mail: <a href="mailto:streng@streng.ee">streng@streng.ee</a></p>
+                    <hr>
+                    <h3>Oliver Orrin</h3>
+                    <p>Juhatuse liige, insener</p>
+                    <p>+372 56911237 | <a href="mailto:oliver@streng.ee">oliver@streng.ee</a></p>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2097.861831393803!2d26.71591881593388!3d58.37566098134308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb371b1a356e9f%3A0x3b4243ab448351e0!2sRiia%2020%2C%2051010%20Tartu%2C%20Eesti!5e0!3m2!1set!2s!4v1663877743878!5m2!1set!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt-form" class="contact-section">
+            <div class="container">
+                <h2>Võta meiega ühendust</h2>
+                <form action="https://formsubmit.co/kristjanorrin03@gmail.com" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Sinu nimi" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Sinu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Sinu sõnum" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Saada</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Streng OÜ | Registrikood: 11233049 | Riia 20-14, Tartu | streng(at)streng.ee</p>
+        </div>
+    </footer>
+</body>
+</html>
