@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Piltide andmebaas kategooriate kaupa
     const images = {
-        uhiskondlikud: ['/static/images/uk1.jpg', '/static/images/uk2.jpg', '/static/images/uk3.jpeg', '/static/images/uk4.jpeg', '/static/images/uk5.jpeg', '/static/images/uk6.jpeg'],
-        kaubandus: ['/static/images/kb1.jpg', '/static/images/kb2.jpg', '/static/images/kb3.jpg', '/static/images/kb4.jpg'],
-        toostus: ['/static/images/t1.jpeg', '/static/images/t2.jpeg', '/static/images/t3.jpeg'],
-        elamud: ['/static/images/e1.jpg', '/static/images/e2.jpg', '/static/images/e3.jpg', '/static/images/e4.jpg', '/static/images/e5.jpg'],
-        korterelamud: ['/static/images/k1.jpg', '/static/images/k2.jpg', '/static/images/k3.jpeg', '/static/images/k4.jpg'],
-        rodud: ['/static/images/rv1.jpg', '/static/images/rv2.jpg', '/static/images/rv3.jpg', '/static/images/rv4.jpeg', '/static/images/rv5.jpeg', '/static/images/rv6.jpg', '/static/images/rv7.jpg', '/static/images/rv8.jpg', '/static/images/rv9.jpg'],
-        rajatised: ['/static/images/r1.jpg', '/static/images/r2.jpg', '/static/images/r3.jpg'],
-        trepid: ['/static/images/tp1.jpeg', '/static/images/tp2.jpg', '/static/images/tp3.jpeg', '/static/images/tp4.jpeg']
+        uhiskondlikud: ['static/images/uk1.jpg', 'static/images/uk2.jpg', 'static/images/uk3.jpeg', 'static/images/uk4.jpeg', 'static/images/uk5.jpeg', 'static/images/uk6.jpeg'],
+        kaubandus: ['static/images/kb1.jpg', 'static/images/kb2.jpg', 'static/images/kb3.jpg', 'static/images/kb4.jpg'],
+        toostus: ['static/images/t1.jpeg', 'static/images/t2.jpeg', 'static/images/t3.jpeg'],
+        elamud: ['static/images/e1.jpg', 'static/images/e2.jpg', 'static/images/e3.jpg', 'static/images/e4.jpg', 'static/images/e5.jpg'],
+        korterelamud: ['static/images/k1.jpg', 'static/images/k2.jpg', 'static/images/k3.jpeg', 'static/images/k4.jpg'],
+        rodud: ['static/images/rv1.jpg', 'static/images/rv2.jpg', 'static/images/rv3.jpg', 'static/images/rv4.jpeg', 'static/images/rv5.jpeg', 'static/images/rv6.jpg', 'static/images/rv7.jpg', 'static/images/rv8.jpg', 'static/images/rv9.jpg'],
+        rajatised: ['static/images/r1.jpg', 'static/images/r2.jpg', 'static/images/r3.jpg'],
+        trepid: ['static/images/tp1.jpeg', 'static/images/tp2.jpg', 'static/images/tp3.jpeg', 'static/images/tp4.jpeg']
     };
 
     let currentSlide = 0;
